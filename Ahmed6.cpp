@@ -33,3 +33,22 @@ int main() {
 
     return 0;
 }
+#include <iostream>
+using namespace std;
+
+int main() {
+    int num1, num2, sum;
+
+    cout << "1234 ";
+    cin >> num1;
+
+    cout << "5678";
+    cin >> num2;
+
+    sum = num1 + num2;
+
+    cout << "the Result " << sum << endl;
+
+    return 0;
+}
+
